@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>Customizing Your HTML Workflow</title>
+<!--  Highlightjs loads here  -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<!--  Mathjax loads here  -->
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+  </head>
+  <body>
+    <pre>
+      <code>
+        &lt;p class="text" &gt; Look mom! Syntax highlighted text! &lt;/p&gt;
+      </code>  
+    </pre>
+    
+    <pre>
+      <code>
+        body {
+          background-color: blue;
+          font-family: 'Comic Sans', sans-serif;
+        }
+      </code>
+    </pre>
+    
+    <p>
+      This is an equation displayed on its own line $$ \frac 1 2 $$
+    </p>    
+    <p>
+      This is the quadratic formula: \( \frac {-b \pm \sqrt{b ^ 2 - 4ac}} {2a} \)
+    </p>
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>

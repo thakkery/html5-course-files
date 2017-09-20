@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <title>Intro to Forms</title>
+  </head>
+  <body>
+    <h1>Form Basics</h1>
+    <form onsubmit="alert('Form is being submitted')">
+      <input type="text" placeholder="Search"/>
+      <input type="submit" value="Search"/>
+    </form>
+    <button onclick="console.log('Useless button was clicked')">Useless Button</button>
+    
+    <h1>Intermediate Forms</h1>
+    <form>
+      <textarea></textarea>
+      <select>
+        <option>Cheddar Cheese</option>
+        <option>Goat Cheese</option>
+        <option>Mozzarella</option>
+      </select>
+    </form>
+    
+    <p>Select your favorite Cheese:</p>
+    <form>
+      <input id="cheddar" type="radio"/>
+      <label for="cheddar">Cheddar</label>
+      <br />
+      <input id="moz" type="radio"/>
+      <label for="moz">Mozzarella</label>
+      <br/>
+      <input id="goat" type="radio" />
+      <label for="goat">Goat Cheese</label>
+      <br/>
+      <label>
+        <input type="radio"/>
+        Blue Cheese
+      </label>
+      <br />
+      <input type="submit" value="Submit" aria-describedby="cheese-submit" />
+    </form>
+    
+    <div id="cheese-submit" style="visibility: hidden">
+      <h2>Description for submit button</h2>
+      <p>Pressing the submit button will confirm your selection for your favorite cheese.</p>
+    </div>
+    
+    <img src="https://www.rd.com/wp-content/uploads/sites/2/2016/02/06-train-cat-shake-hands.jpg" height="200" alt="cat holding up left paw to camera"/>
+    
+  </body>
+</html>
